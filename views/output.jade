@@ -1,9 +1,9 @@
 doctype html
-html(lang="en")
+html(lang='en')
   head
-    title=shortnsweet
+    title='shortnsweet'
     body
       div.container
         div.row
           h1 shortnsweet
-          p shortened url is a(href=base+'/'+id)#{base}/#{id}
+          p: url is #[a(href=link) #{link}]
