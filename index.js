@@ -6,7 +6,7 @@ import bodyParser from 'body-parser'
 import redis from 'redis'
 
 const port = 3000
-const base = `localhost:${port}`
+const base = `http://localhost:${port}`
 const client = redis.createClient()
 const app = express()
   .set(`views`, __dirname + `/views`)
